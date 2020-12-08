@@ -1,6 +1,7 @@
 # Entity Framework: Semi-automatic Migrations
 Your app alerts the user if the database has not being created yet or has changes, then they can create or update from runtime
 1. Clone or download the code
+   https://github.com/atorres16/EF-semi-automatic-migrations.git
 2. To setup the environment for development, set the connection string in app.config
    ```xml
    <connectionStrings>
