@@ -17,15 +17,18 @@ Your app alerts the user if the database has not being created yet or has change
    update-database
    ```
 5. Run the app and you'll get:
+   
    ![](images/2020-12-08-11-08-43.png)
 6. Set a connection string for production
+   
    ![](images/2020-12-08-11-14-06.png)
 7. Restart the app, you'll get:
+    
    ![](images/2020-12-08-11-14-46.png)
-8. Click "Create Database":
+8.  Click "Create Database":
    ![](images/2020-12-08-11-15-44.png)      
-9.  Check your database, you'll see the end user database created
-10. Modify the model, add a property to *Thing*
+11. Check your database, you'll see the end user database created
+12. Modify the model, add a property to *Thing*
 ```csharp
     public class Thing
     {
@@ -39,8 +42,10 @@ Your app alerts the user if the database has not being created yet or has change
     update-database
     ```
 11. Run the app, you'll get:
+    
     ![](images/2020-12-08-11-19-38.png)
 12. Click "Update database":
+    
     ![](images/2020-12-08-11-20-41.png)
 
     ![](images/2020-12-08-11-21-10.png)            
