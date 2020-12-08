@@ -137,7 +137,7 @@ namespace EF_semi_automatic_migrations
                 {
                     var Migrator = new DbMigrator(new Migrations.Configuration() { TargetDatabase = new DbConnectionInfo(ConnString, "System.Data.SqlClient") });
                     IEnumerable<string> PendingMigrations = Migrator.GetPendingMigrations();
-                    string s = null;
+                    
                     StringBuilder sb = new StringBuilder();
                     sb.AppendLine("Updates to be applied: ");
                     foreach (var migration in PendingMigrations)

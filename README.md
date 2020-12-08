@@ -49,4 +49,11 @@ Your app alerts the user if the database has not being created yet or has change
     ![](images/2020-12-08-11-20-41.png)
 
     ![](images/2020-12-08-11-21-10.png)            
-       
+
+## Resources
+* https://stackoverflow.com/questions/36265827/entity-framework-automatic-apply-migrations       
+* https://stackoverflow.com/questions/39348568/entity-framework-auto-update
+* https://stackoverflow.com/questions/60321354/entity-framework-6-update-database-programmatically-no-automatic-migration
+* https://www.entityframeworktutorial.net/code-first/automated-migration-in-code-first.aspx
+* https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/migrations/automatic
+* https://stackoverflow.com/questions/39348568/entity-framework-auto-update
